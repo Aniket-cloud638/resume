@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Aniket Kalode | Portfolio</title>
+    <link rel="stylesheet" href="profile.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <div class="header-text">
+                <h1>Aniket Kalode</h1>
+                <h3>
+                    <a href="mailto:aniketkalode208@gmail.com">aniketkalode208@gmail.com</a>
+                    &nbsp;|&nbsp; +91 8408980564
+                </h3>
+                <nav>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#education">Education</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- Profile Photo on Right Side -->
+            <div class="profile-photo">
+                <img src="profilephoto.jpg" alt="Aniket Kalode" />
+                <!-- Replace the URL above with your own photo URL -->
+            </div>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                I’m <strong>Aniket Kalode</strong>, a software developer with a strong foundation in web development and problem-solving.
+                I graduated from Amaravati University (G.H. Raisoni College of Engineering) with a Bachelor of Computer Applications (BCA) in May 2026.
+                I thrive on building efficient, scalable solutions and love working on projects that create real-world impact.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li><span>Java</span></li>
+                <li><span>DSA</span></li>
+                <li><span>HTML</span></li>
+                <li><span>CSS</span></li>
+                <li><span>JavaScript</span></li>
+                <li><span>Python</span></li>
+                <li><span>C/C++</span></li>
+                <li><span>SQL</span></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="edu-card">
+                <h3>Bachelor of Computer Applications (BCA)</h3>
+                <p>
+                    <strong>G.H. Raisoni College of Engineering, Amaravati University</strong><br />
+                    <span class="edu-detail">CGPA: 8.5 &nbsp;|&nbsp; May 2026</span>
+                </p>
+            </div>
+            <div class="edu-card">
+                <h3>XII (SSE)</h3>
+                <p>
+                    <strong>Indira Gandhi Junior College of Allipur</strong><br />
+                    <span class="edu-detail">54% &nbsp;|&nbsp; Feb 2023</span>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Kisan Shop</h3>
+                    <p>
+                        The Kisan Shop is your one-stop online destination for all your farming needs. Dedicated to connecting farmers with high-quality supplies, resources, and a thriving community. Whether you're a seasoned professional or just starting out, Kisan Shop has everything you need to cultivate success.
+                    </p>
+                    <a class="project-link" href="https://687cbb48a90e376a97f0659a--enchanting-sunburst-e9e6d7.netlify.app/" target="_blank" rel="noopener noreferrer">Visit Kisan Shop</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2025 Aniket Kalode. All rights reserved.
+    </footer>
+
+    <script>
+        // Smooth scroll for navigation links
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                if(this.hash) {
+                    e.preventDefault();
+                    document.querySelector(this.hash)
+                        .scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
